@@ -2,6 +2,7 @@
     <head>
         <meta charset=utf8 />
         <title>Cole Beasley</title>
+        <!-- JQuery + Google fonts -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <link rel="stylesheet" href="style.css"><link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
@@ -9,6 +10,7 @@
     </head>
     <body>
         <span id="circle"></span>   <!-- Spot light to follow mouse -->
+        <!-- Home section -->
         <div id="home">
             <div id="homeText">
                 <span id="name">I'm Cole Beasley</span>
@@ -18,16 +20,13 @@
                 <img id="homePicture" src='images/face.png'>
             </div>
         </div>
+        <!-- About me section -->
         <div id="aboutMe">
-            <!-- <div id="aboutMeText"> -->
                 <span id="intro">ABOUT ME</span>
                 <span id="break">___________</span>
                 <span id="bio">My name is Cole and I am an undergraduate at New York University Abu Dhabi currently studying Computer Science and Interactive Media. I am enrolled in Communications Lab with professor Michael Ang, and through this course we have refined skills in various communication mediums including web, sound, and film. My greatest quality in group projects has been my technical knowledge of web development and previous work in web programming. This course has exposed me to various other mediums that are prevelant in interactive media and my projects from this semester can be found here.</span>
-            <!-- </div> -->
-            <!-- <div id="workingPictureContainer">
-                <img id="workingPicture" src='images/working.jpg'>
-            </div> -->
         </div>
+        <!-- Work showcase section -->
         <div id="works">
             <div class="work">
                 <div class="workImageContainer">
@@ -40,6 +39,7 @@
                     <span class="workDescription">In just thirty minutes a masterfully crafted film was created showing off the one thing that unifies all, money. This website features the film and cast behind it.</span>
                 </div>
             </div>
+            <!-- By default go right -->
             <div class="work right">
                 <div class="workImageContainer">
                     <a target="_blank" href="https://neomort.github.io/comm-lab-comic/">
@@ -62,6 +62,7 @@
                     <span class="workDescription">Been stuck inside unable to travel during COVID? Well what if there was a website where you could simulate a phone call with a travel agency and create a taylor made trip? This website does just that</span>
                 </div>
             </div>
+            <!-- By default go right -->
             <div class="work right">
                 <div class="workImageContainer">
                     <a target="_blank" href="https://jjeongin.github.io/Chroma/">
@@ -74,6 +75,8 @@
                 </div>
             </div>
         </div>
+
+        <!-- Contact me page -->
         <div id="contactPage">
             <span id="contactMeText">CONTACT ME</span>
             <span id="contactMeBreak">___________</span>
@@ -86,7 +89,7 @@
             </div>
             <div class="contact">
                 <div class="contactImageWrapper">
-                    <a target="_blank" href="mailto: crb596@nyu.edu">
+                    <a target="_blank" href="mailto: crb596@nyu.edu">   <!-- Open mail sender -->
                         <img class="contactImage" src="images/mail.svg">
                     </a>
                 </div>
