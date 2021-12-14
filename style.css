@@ -228,8 +228,7 @@ body{
 	pointer-events: none;
 	width: 100px;
     height: 100px;
-	background-color: #111111;
+	background-color: #FFFFFF20;
   	border-radius: 50%;
     position: absolute;
-    mix-blend-mode: lighten;
 }
