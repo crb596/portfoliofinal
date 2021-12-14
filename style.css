@@ -151,14 +151,12 @@ body{
 	padding-left:100px;
 	height: 60%;
 	padding-top: 20%;
-	/*Grayscale*/
+	/*Grayscale for various borwser support*/
 	filter: url(filters.svg#grayscale);
-	/* Firefox 3.5+ */
 	filter: gray;
-	/* IE6-9 */
 	-webkit-filter: grayscale(1);
-	/* Google Chrome & Safari 6+ */
 }
+/*Color on hover*/
 .workImage:hover{
   filter: none;
   -webkit-filter: none;
@@ -170,9 +168,11 @@ body{
 	.workImage{
 		height: 40%;
 	}
+	/*Make each work bigger*/
 	.work{
 		height:100%;
 	}
+	/*Put into vertical mode*/
 	.work{
 	  	align-items: center;
 	  	flex-direction: column;
@@ -181,6 +181,7 @@ body{
 	  	align-items: center;
 	  	flex-direction: column;
 	}
+	/*Remove padding*/
 	.right > div{
 		padding-right: 0px;
 		padding-left: 0;
